@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <title>Payments</title>
+    <header>Payments</header>
+    <body>
+        <div>
+            <h1>Make Payment</h1>
+            <form action="submit">
+                <label>Amount</label><br/>
+                <input type="number" required/>
+                <label>Currency</label><br/>
+                <select name="Currency">
+                    <option default>Select currency</option>
+                    <option value="UGX">UGX</option>
+                    <option value="UGX">KSH</option>
+                </select>
+                <br/>
+                <label>Payment Method</label><br/>
+                <select name="payment_method">
+                    <option default>Select payment method</option>
+                    <option value="momo">Momo</option>
+                    <option value="bank_transfer">Bank Transfer</option>
+                    <option value="card">Card</option>
+                </select>
+                <br/>
+                <a href="dashboard.html">
+                    <input type="button" name="Login"/>
+                </a>
+            </form>
+        </div>
+    </body>
+</html>
